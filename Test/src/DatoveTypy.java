@@ -49,6 +49,14 @@ public class DatoveTypy {
 		
 		
 		
+		
+		
+		
+		
+		
+		
+		
+		
 
 	}
 
