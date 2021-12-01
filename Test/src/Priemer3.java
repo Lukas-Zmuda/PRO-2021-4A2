@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Priemer1 {
+public class Priemer3 {
 
 	public static void main(String[] args) {
 		
@@ -10,15 +10,14 @@ public class Priemer1 {
 		double suma = 0;
 		int cislo = 0;
 		
-		System.out.println("Zadaj pocet cisel: ");
-		pocet = sc.nextInt();
-		
-		for(int i = 0; i < pocet; i++ ) {
+		do {
 			System.out.println("Zadaj cislo: ");
 			cislo = sc.nextInt();
 			suma += cislo;
-		}
-		
+			pocet++;
+		}while(cislo != 0);
+			
+		pocet--;
 		System.out.println("Priemer: " + (suma / pocet));
 
 	}

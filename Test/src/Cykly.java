@@ -24,7 +24,18 @@ public class Cykly {
 			System.out.println(i + ":" + j);
 		}
 		
-		
+		int i = 1;
+		while(true) {
+			System.out.print(i + ",");
+			i++;
+			if(i == 10) {
+				i++;
+				continue;
+			}
+			if(i == 21) {
+				break;
+			}
+		}
 		
 	}
 
