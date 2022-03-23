@@ -12,6 +12,8 @@ public class Tester {
 		
 		Ucet ferovUcet = new Ucet();
 		
+		mojUcet.vypisInfo();
+		
 		mojUcet.cislo = "SK1209000000001234567890";
 		//System.out.println("Cislo mojho uctu: " + mojUcet.cislo);
 		mojUcet.mena = "EUR";
@@ -32,7 +34,9 @@ public class Tester {
 		System.out.println("-------------");
 		ferovUcet.vypisInfo();
 		
-		
+		Ucet uu = new Ucet("SK220900000000123456789", "sporiaci", 1200, "USD");
+		System.out.println("----------------");
+		uu.vypisInfo();
 		
 		
 		
